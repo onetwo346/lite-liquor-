@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lite Liquor & More</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #111;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    header {
+      background: #000;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header img {
+      width: 180px;
+    }
+    nav {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #f5f5f5;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('lite.jpg') no-repeat center center/cover;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      color: gold;
+      text-shadow: 2px 2px 8px #000;
+    }
+    .hero p {
+      font-size: 1.2em;
+      color: #eee;
+      margin-top: 10px;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: gold;
+    }
+    .section p {
+      font-size: 1.1em;
+      color: #ccc;
+    }
+    .highlight {
+      color: #fff;
+      font-weight: bold;
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2em; }
+      .hero p { font-size: 1em; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="lite.jpg" alt="Lite Liquor & More Logo">
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h1>Welcome to Lite Liquor & More</h1>
+      <p>For All Happy Hour Needs - Located in Agona Nsaba</p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+      <span class="highlight">Lite Liquor & More</span> is your ultimate destination for both wholesale and retail of 
+      <span class="highlight">alcoholic</span> and <span class="highlight">non-alcoholic beverages</span>. 
+      We are proudly located in <strong>Agona Nsaba</strong> and serve individuals, bars, clubs, events, and more.
+    </p>
+  </section>
+
+  <section id="services" class="section" style="background-color: #1a1a1a;">
+    <h2>Our Services</h2>
+    <p>
+      We provide flexible and customer-focused services including:
+      <ul style="margin-top: 15px; color: #ccc; padding-left: 20px;">
+        <li>✅ In-store Purchase</li>
+        <li>✅ Online Ordering</li>
+        <li>✅ Sales on Return (For Clubs, Pubs, Taverns & Event Organizers)</li>
+      </ul>
+    </p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>
+      📍 <strong>Location:</strong> Agona Nsaba, Ghana <br><br>
+      📞 <strong>Phone:</strong> +233 XX XXX XXXX <br><br>
+      📧 <strong>Email:</strong> info@liteliquor.com
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Lite Liquor & More. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
